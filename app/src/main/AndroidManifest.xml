@@ -9,18 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BeduAppProyecto">
-        <activity android:name=".MainActivity6"></activity>
-        <activity android:name=".MainActivity5">
+        <activity android:name=".Clase5Frg1"></activity>
+        <activity
+            android:name=".Clase5Fragments"
+            android:label="@string/title_activity_clase5_fragments"
+            android:theme="@style/Theme.BeduAppProyecto.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Clase4Activity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".MainActivity5" />
         <activity android:name=".MainActivity4" />
         <activity android:name=".MainActivity3" />
-        <activity android:name=".MainActivity2" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity2"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
